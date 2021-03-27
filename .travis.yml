@@ -1,0 +1,15 @@
+language: cpp
+
+matrix:
+  include:
+    - os: linux
+      dist: bionic
+      compiler: gcc
+      env: COMPILER=g++-9
+      addons:
+        apt:
+          update: true
+          sources:
+          - ubuntu-toolchain-r-test
+          packages:
+          - g++-9
