@@ -2,3 +2,6 @@
 
 Build testing with Travis Ci : 
 ![Build status](https://travis-ci.com/Vensim/Github_apps_test.svg?branch=main)
+
+Functioning SSH connection and pushing from computer. 
+
